@@ -1,0 +1,5 @@
+Add your own files to this folder:
+- profile.jpg (your profile photo)
+- project1.png (first project screenshot)
+- project2.png (second project screenshot)
+- resume.pdf (your resume PDF)

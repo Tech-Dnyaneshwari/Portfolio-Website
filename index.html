@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dnyaneshwari's portfolio: Computer Engineering student, projects, skills and contact details.">
+  <title>Dnyaneshwari | Developer Portfolio</title>
+  <!-- Keep CSS separate so you can update the design any time. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">D<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- EDIT: Change your name, role and introduction in this section. -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Dnyaneshwari<span class="accent">.</span></h1>
+          <h2>Computer Engineering Student & Aspiring Developer</h2>
+          <p class="intro">I'm a second-year B.E. Computer Engineering student at Savitribai Phule Pune University (SPPU). I'm learning software development, building practical projects and exploring AI.</p>
+          <div class="button-row">
+            <a class="button primary" href="#projects">Explore My Projects</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="social-links">
+            <!-- EDIT: Replace YOUR_USERNAME with your real usernames. -->
+            <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="photo-wrap">
+          <!-- Add your own photo at assets/profile.jpg -->
+          <img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Dnyaneshwari"
+               onerror="this.hidden=true; document.getElementById('photo-fallback').hidden=false;">
+          <div class="photo-fallback" id="photo-fallback" hidden>
+            <strong>Your photo goes here</strong>
+            <span>Add your image as <code>assets/profile.jpg</code></span>
+          </div>
+          <div class="floating-note"><span class="status-dot"></span> Learning · Building · Growing</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>About <span class="accent">Me</span></h2>
+          <p>My journey, interests and goals.</p>
+        </div>
+        <!-- EDIT: Write your own introduction here. -->
+        <div class="about-panel">
+          <div class="number-box">01</div>
+          <div>
+            <h3>Curious mind. Practical approach.</h3>
+            <p>I'm Dnyaneshwari, a second-year B.E. Computer Engineering student at Savitribai Phule Pune University (SPPU), Maharashtra, India.</p>
+            <p>I'm strengthening my programming skills and exploring web development, AI and software engineering. I learn by building projects and improving them step by step.</p>
+            <p>My goal is to develop a strong technical foundation, contribute to useful projects and prepare for software development internships.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="education">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+          <h2>Education</h2>
+        </div>
+        <article class="education-card">
+          <div class="education-icon" aria-hidden="true">🎓</div>
+          <div>
+            <span class="pill">Undergraduate</span>
+            <h3>Bachelor of Engineering (B.E.)</h3>
+            <h4>Computer Engineering</h4>
+            <p>Savitribai Phule Pune University (SPPU)</p>
+            <!-- EDIT: Confirm your batch/graduation year before publishing. -->
+            <p class="muted">Second Year · Update your expected graduation year</p>
+            <p class="muted">Pune, Maharashtra, India</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">WHAT I'M LEARNING</p>
+          <h2>Technical <span class="accent">Skills</span></h2>
+          <p>Keep the skills you have started learning or used in a project.</p>
+        </div>
+        <!-- EDIT: Add, remove or rename skill cards as your skills grow. -->
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-symbol">C++</span><h3>C++</h3><p>Programming fundamentals and problem solving</p></article>
+          <article class="skill-card"><span class="skill-symbol">HTML</span><h3>HTML5</h3><p>Semantic page structure</p></article>
+          <article class="skill-card"><span class="skill-symbol">CSS</span><h3>CSS3</h3><p>Responsive layouts and styling</p></article>
+          <article class="skill-card"><span class="skill-symbol">JS</span><h3>JavaScript</h3><p>Interactive web development</p></article>
+          <article class="skill-card"><span class="skill-symbol">Git</span><h3>Git & GitHub</h3><p>Version control and collaboration</p></article>
+          <article class="skill-card"><span class="skill-symbol">AI</span><h3>AI Tools</h3><p>Exploring AI-assisted development</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">THINGS I'VE BUILT</p>
+          <h2>Featured <span class="accent">Projects</span></h2>
+          <p>Add your real repository links, screenshots and technologies.</p>
+        </div>
+        <div class="projects-grid">
+          <!-- PROJECT CARD: Copy this article to add another project. -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/project1.png" alt="Khet2Kitchen project screenshot" loading="lazy"
+                   onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+              <div class="image-fallback" hidden>Add screenshot: assets/project1.png</div>
+            </div>
+            <div class="project-body">
+              <p class="project-type">WEB / STARTUP PROJECT</p>
+              <h3>Khet2Kitchen</h3>
+              <p>A project idea focused on connecting farmers with consumers and improving access to fresh agricultural produce.</p>
+              <div class="tags"><span>Update stack</span><span>Web</span></div>
+              <a class="text-link" href="https://github.com/YOUR_USERNAME/YOUR_KHET2KITCHEN_REPO" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/project2.png" alt="Smart Farming Agent project screenshot" loading="lazy"
+                   onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+              <div class="image-fallback" hidden>Add screenshot: assets/project2.png</div>
+            </div>
+            <div class="project-body">
+              <p class="project-type">AI / SOFTWARE PROJECT</p>
+              <h3>Smart Farming Agent</h3>
+              <p>A project exploring how software and AI tools might help farmers access useful agricultural information.</p>
+              <div class="tags"><span>Update stack</span><span>AI</span></div>
+              <a class="text-link" href="https://github.com/YOUR_USERNAME/YOUR_SMART_FARMING_REPO" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image project-placeholder">
+              <div class="image-fallback">Add a screenshot for your next project</div>
+            </div>
+            <div class="project-body">
+              <p class="project-type">YOUR CATEGORY</p>
+              <h3>Your Next Project</h3>
+              <p>Describe the problem, your solution, the technologies used and what you learned.</p>
+              <div class="tags"><span>Technology 1</span><span>Technology 2</span></div>
+              <a class="text-link" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="learning">
+      <div class="container callout">
+        <div>
+          <p class="eyebrow">CURRENTLY EXPLORING</p>
+          <h2>Always learning. Always building.</h2>
+          <p>I'm improving my programming, web development, GitHub workflow and understanding of AI technologies.</p>
+        </div>
+        <a class="button primary" href="#projects">See My Work</a>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="resume">
+      <div class="container callout">
+        <div>
+          <p class="eyebrow">MY RESUME</p>
+          <h2>Want to know more about me?</h2>
+          <p>Add your latest resume PDF to the assets folder.</p>
+        </div>
+        <!-- Put your PDF at assets/resume.pdf -->
+        <a class="button primary" href="assets/resume.pdf" download>Download Resume ↓</a>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Get In <span class="accent">Touch</span></h2>
+          <p>Questions, internship opportunities or project collaborations are welcome.</p>
+        </div>
+        <div class="contact-panel">
+          <div class="contact-info">
+            <h3>Contact Details</h3>
+            <p>I'm interested in learning, building projects and connecting with people in technology.</p>
+            <!-- EDIT: Replace with your email in BOTH index.html and script.js. -->
+            <a class="email-link" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+            <div class="social-links">
+              <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </div>
+          </div>
+          <!-- This front-end form opens the visitor's email app; it does not store messages. -->
+          <form id="contact-form" class="contact-form">
+            <label for="visitor-name">Your name</label>
+            <input id="visitor-name" name="name" type="text" maxlength="100" required placeholder="Enter your name">
+            <label for="visitor-email">Your email</label>
+            <input id="visitor-email" name="email" type="email" maxlength="254" required placeholder="Enter your email">
+            <label for="visitor-message">Your message</label>
+            <textarea id="visitor-message" name="message" rows="5" maxlength="3000" required placeholder="Write your message"></textarea>
+            <button class="button primary" type="submit">Prepare Email ↗</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">D<span>.</span></a>
+      <p>Designed and built by Dnyaneshwari.</p>
+      <p>© <span id="current-year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Keep JavaScript separate so you can update interactions independently. -->
+  <script src="script.js"></script>
+</body>
+</html>
